@@ -5,11 +5,19 @@
 //  Created by Kenneth Johnson on 1/12/22.
 //
 
-import UIKit
+import MapKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    @IBOutlet weak var mapViewA: UIView!
+    
+    
+    
+    
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
