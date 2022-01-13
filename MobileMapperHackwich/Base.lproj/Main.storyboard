@@ -24,7 +24,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="oP9-j6-vf6"/>
+                    <navigationItem key="navigationItem" id="oP9-j6-vf6">
+                        <barButtonItem key="leftBarButtonItem" title="Zoom" id="dT7-iv-aPO" customClass="bar"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="7Qe-Ms-oGg"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapViewA" destination="8bC-Xf-vdC" id="BGz-WI-qSv"/>
                     </connections>
