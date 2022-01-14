@@ -6,11 +6,13 @@
 //
 
 import MapKit
+import UIKit
+
 
 class ViewController: UIViewController, CLLocationManagerDelegate
 {
 
-    @IBOutlet weak var mapViewA: UIView!
+    @IBOutlet weak var mapViewA: MKMapView!
     
     var currentLocation: CLLocation!
     
@@ -33,7 +35,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate
     {
         currentLocation = locations[0]
     }
-    
     
     
     
